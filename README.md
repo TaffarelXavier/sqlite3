@@ -1,10 +1,10 @@
 # Guia Rápido sobre o SQLite3
 
 - [Conexão com o Banco de Dados Sqlite3](#select)
-  - [Insert](#insert)
-  - [Select](#select)
-  - [Update](#update)
-  - [Delete](#delete)
+  - [Insert](#pushpin-insert)
+  - [Select](#pushpin-select)
+  - [Update](#pushpin-update)
+  - [Delete](#pushpin-delete)
 
 
 > ## Pré-requisito:
@@ -13,7 +13,7 @@
 
 > ## Instalação:
 
-Após instalar o Node, você deve instalar o pacote sqlite3 
+Após instalar o Node, você deve instalar o pacote sqlite3 na **pasta do seu projeto:**
 
 ```git
 npm install sqlite3
@@ -34,7 +34,7 @@ let db = new sqlite3.Database('./db/mydb.db', (err) => {
   console.log('Conectado ao banco de dados');
 });
 ```
-> ## Insert :
+> ## :pushpin: Insert :
 ```javascript
 let languages = ['C++', 'Python', 'Java', 'C#', 'Go'];
  
@@ -57,7 +57,7 @@ db.run(sql, languages, function(err) {
 db.close();
 ```
 
-> ## Select :
+> ## :pushpin: Select :
 
 ```javascript
 db.serialize(() => {
@@ -73,8 +73,8 @@ db.serialize(() => {
 ```
 
 
-> ## Update :
+> ## :pushpin: Update :
 
 
 
-> ## Delete :
+> ## :pushpin: Delete :
