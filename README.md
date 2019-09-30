@@ -1,11 +1,11 @@
 # ⚡️ Guia Rápido sobre o SQLite3 Usando Node JS:
 
 - [Conexão com o Banco de Dados Sqlite3](#select)
-  - [Insert](#pushpin-insert-)
-  - [Select](#pushpin-select-)
-  - [Update](#pushpin-update-)
-  - [Delete](#pushpin-delete-)
-  - [REFERÊNCIAS](#referencia)
+- [Insert](#pushpin-insert-)
+- [Select](#pushpin-select-)
+- [Update](#pushpin-update-)
+- [Delete](#pushpin-delete-)
+- [REFERÊNCIAS](#referencia)
 
 
 > ## :pushpin: Pré-requisito:
