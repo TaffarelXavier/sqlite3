@@ -1,10 +1,10 @@
 # Guia Rápido sobre o SQLite3
 
 - [Conexão com o Banco de Dados Sqlite3](#select)
-  - [Insert](#pushpin-insert)
-  - [Select](#pushpin-select)
-  - [Update](#pushpin-update)
-  - [Delete](#pushpin-delete)
+  - [Insert](#pushpin-insert-)
+  - [Select](#pushpin-select-)
+  - [Update](#pushpin-update-)
+  - [Delete](#pushpin-delete-)
 
 
 > ## Pré-requisito:
@@ -13,7 +13,7 @@
 
 > ## Instalação:
 
-Após instalar o Node, você deve instalar o pacote sqlite3 na **pasta do seu projeto:**
+Após instalar o Node, você deve instalar o pacote `sqlite3` na **pasta do seu projeto:**
 
 ```git
 npm install sqlite3
