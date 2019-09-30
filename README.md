@@ -5,6 +5,7 @@
   - [Select](#pushpin-select-)
   - [Update](#pushpin-update-)
   - [Delete](#pushpin-delete-)
+  - [REFERÊNCIAS](#pushpin-delete-)
 
 
 > ## :pushpin: Pré-requisito:
@@ -113,3 +114,9 @@ db.close((err) => {
   }
 });
 ```
+---
+## REFERÊNCIAS
+Appropriate Uses For SQLite<BR/>
+https://www.sqlite.org/whentouse.html<BR/>
+SQLite Node.js<BR/>
+https://www.sqlitetutorial.net/sqlite-nodejs/delete/
