@@ -5,7 +5,7 @@
 - [Select](#pushpin-select)
 - [Update](#pushpin-update)
 - [Delete](#pushpin-delete)
-- [REFERÊNCIAS](#referencia)
+- [REFERÊNCIAS](#referências)
 
 
 > ## :pushpin: Pré-requisito:
