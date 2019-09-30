@@ -34,7 +34,7 @@ let db = new sqlite3.Database('./db/mydb.db', (err) => {
   console.log('Conectado ao banco de dados');
 });
 ```
-> ## :pushpin: Insert :
+> ## :pushpin: Insert
 ```javascript
 let languages = ['C++', 'Python', 'Java', 'C#', 'Go'];
  
@@ -57,7 +57,7 @@ db.run(sql, languages, function(err) {
 db.close();
 ```
 
-> ## :pushpin: Select :
+> ## :pushpin: Select
 
 ```javascript
 db.serialize(() => {
@@ -73,8 +73,43 @@ db.serialize(() => {
 ```
 
 
-> ## :pushpin: Update :
+> ## :pushpin: Update
+```javascript
+//
+let data = ['Ansi C', 'C'];
+let sql = `UPDATE langs
+            SET name = ?
+            WHERE name = ?`;
+ 
+db.run(sql, data, function(err) {
+  if (err) {
+    return console.error(err.message);
+  }
+  console.log(`Row(s) updated: ${this.changes}`);
+ 
+});
+ 
+// close the database connection
+db.close();
+```
 
 
+> ## :pushpin: Delete
 
-> ## :pushpin: Delete :
+```javascript
+let id = 1;
+// delete a row based on id
+db.run(`DELETE FROM langs WHERE rowid=?`, id, function(err) {
+  if (err) {
+    return console.error(err.message);
+  }
+  console.log(`Row(s) deleted ${this.changes}`);
+});
+ 
+// close the database connection
+db.close((err) => {
+  if (err) {
+    return console.error(err.message);
+  }
+});
+```
