@@ -7,11 +7,11 @@
   - [Delete](#pushpin-delete-)
 
 
-> ## Pré-requisito:
+> ## :pushpin: Pré-requisito:
 ![](./assets/images/node_logo.png)
 - Node Js [Download](https://nodejs.org/en/download/)
 
-> ## Instalação:
+> ## :pushpin: Instalação:
 
 Após instalar o Node, você deve instalar o pacote `sqlite3` na **pasta do seu projeto:**
 
@@ -20,7 +20,7 @@ npm install sqlite3
 ```
 
 
-> ## Conexão com o Banco de Dados Sqlite3
+> ## :pushpin: Conexão com o Banco de Dados Sqlite3
 
 ```javascript
 //Importa o sqlite3
