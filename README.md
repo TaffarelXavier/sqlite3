@@ -15,6 +15,8 @@
 
 > ## Instalação:
 
+---
+
 ```git
 npm install sqlite3
 ```
@@ -35,16 +37,16 @@ let db = new sqlite3.Database('./db/mydb.db', (err) => {
 });
 ```
 
-> ## Select
+- > ## Select
 
 
 
-> ## Insert
+- > ## Insert
 
 
 
-> ## Update
+- > ## Update
 
 
 
-> ## Delete
+- > ## Delete
