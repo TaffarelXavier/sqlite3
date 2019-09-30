@@ -8,9 +8,9 @@
 
 
 > ## Pré-requisito:
-
+![](./assets/images/node_logo.png)
 - Node Js [Download](https://nodejs.org/en/download/)
-![](https://nodejs.org/static/images/logo.svg)
+
 > ## Instalação:
 
 Após instalar o Node, você deve instalar o pacote sqlite3 
