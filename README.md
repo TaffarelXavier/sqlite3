@@ -116,8 +116,5 @@ db.close((err) => {
 ```
 ---
 ## REFERÊNCIAS
-**Appropriate Uses For SQLite**<BR/>
-https://www.sqlite.org/whentouse.html<BR/>
-
-**SQLite Node.js**<BR/>
-https://www.sqlitetutorial.net/sqlite-nodejs/delete/
+**1. Appropriate Uses For SQLite** - https://www.sqlite.org/whentouse.html<BR/>
+**2. SQLite Node.js** - https://www.sqlitetutorial.net/sqlite-nodejs/delete/
