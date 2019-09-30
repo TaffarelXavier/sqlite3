@@ -1,6 +1,4 @@
-#Guia Rápido sobre o SQLite3
----
-
+# Guia Rápido sobre o SQLite3
 
 - [Conexão com o Banco de Dados Sqlite3](#select)
 - [Select](#select)
