@@ -9,11 +9,10 @@
 
 > ## Pré-requisito:
 
-- Node Js
-
+- Node Js [Download](https://nodejs.org/en/download/)
+![](https://nodejs.org/static/images/logo.svg)
 > ## Instalação:
 
----
 
 ```git
 npm install sqlite3
